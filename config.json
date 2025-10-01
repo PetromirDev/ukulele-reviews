@@ -1,0 +1,39 @@
+{
+	"scraper": {
+		"sourceUrl": "https://www.gotaukulele.com/p/ukulele-reviews.html",
+		"outputDir": "./data",
+		"logsDir": "./logs",
+		"delayBetweenRequests": 1000,
+		"maxRetries": 3,
+		"timeout": 10000,
+		"incrementalMode": true,
+		"testMode": {
+			"enabled": true,
+			"maxReviews": 10
+		}
+	},
+	"extraction": {
+		"userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+		"selectors": {
+			"mainContent": ".post-body",
+			"fallbackContent": "body"
+		},
+		"filters": {
+			"excludeKeywords": ["app", "string", "book", "cd"],
+			"minLinkTextLength": 5,
+			"excludePaths": ["/p/", "#"]
+		}
+	},
+	"output": {
+		"format": "json",
+		"pretty": true,
+		"filenameTemplate": "ukulele-reviews-{date}.json",
+		"includeMetadata": true,
+		"includeDiffReport": true
+	},
+	"scheduling": {
+		"enabled": false,
+		"cron": "0 2 * * *",
+		"timezone": "UTC"
+	}
+}
