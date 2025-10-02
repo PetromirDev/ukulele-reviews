@@ -1,0 +1,20 @@
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Other root files
+.env
+
+# Nested directories
+**/node_modules/
+**/dist/
+**/.env
+
