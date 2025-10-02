@@ -1,11 +1,14 @@
 <!-- SearchableBrandSelect.svelte -->
 <script lang="ts">
+  import { onMount } from 'svelte';
+  
   export let brands: string[] = [];
   export let selectedBrand: string = '';
   
   let isOpen = false;
   let searchTerm = '';
   let filteredBrands: string[] = [];
+  let componentElement: HTMLDivElement;
   
   // Filter brands based on search term
   $: {
@@ -37,21 +40,37 @@
     }
   }
   
-  function handleClickOutside() {
-    if (!selectedBrand && searchTerm) {
-      searchTerm = '';
-    }
-    isOpen = false;
+  function handleInputClick(event: MouseEvent) {
+    event.stopPropagation();
+    isOpen = true;
   }
+  
+  onMount(() => {
+    function handleDocumentClick(event: MouseEvent) {
+      if (componentElement && !componentElement.contains(event.target as Node)) {
+        if (!selectedBrand && searchTerm) {
+          searchTerm = '';
+        }
+        isOpen = false;
+      }
+    }
+    
+    document.addEventListener('click', handleDocumentClick);
+    
+    return () => {
+      document.removeEventListener('click', handleDocumentClick);
+    };
+  });
 </script>
 
-<div class="relative">
+<div class="relative" bind:this={componentElement}>
   <div class="relative">
     <input
       type="text"
       placeholder="Search brands..."
       bind:value={searchTerm}
       on:focus={handleInputFocus}
+      on:click={handleInputClick}
       on:input={() => isOpen = true}
       class="w-full min-w-[160px] px-3 py-2 bg-zinc-800 border border-zinc-600 rounded-md text-white text-sm transition-colors focus:outline-none focus:border-blue-500 placeholder-zinc-400"
     />
@@ -94,10 +113,6 @@
     </div>
   {/if}
 </div>
-
-<!-- Click outside handler -->
-<svelte:window on:click={handleClickOutside} />
-
 <style>
   /* Ensure dropdown appears above other elements */
   .relative {
