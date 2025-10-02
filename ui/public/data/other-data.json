@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-02T06:32:08.585Z",
+  "lastUpdated": "2025-10-02T19:55:08.501Z",
   "brands": [
     "'OLI",
     "ALIC",
@@ -161,17 +161,17 @@
     "WORLD"
   ],
   "sizes": [
-    "baritone",
-    "concert",
-    "other",
-    "soprano",
-    "tenor"
+    "Soprano",
+    "Concert",
+    "Tenor",
+    "Baritone",
+    "Other"
   ],
   "priceRanges": [
+    "<50",
+    "50-100",
     "100-200",
     "200-500",
-    "50-100",
-    "500+",
-    "<50"
+    "500+"
   ]
 }

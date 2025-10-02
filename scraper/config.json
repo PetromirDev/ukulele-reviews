@@ -27,7 +27,7 @@
 	"output": {
 		"format": "json",
 		"pretty": true,
-		"filenameTemplate": "ukulele-reviews-{date}.json",
+		"filenameTemplate": "ukulele-reviews.json",
 		"includeMetadata": true,
 		"includeDiffReport": true
 	},

@@ -36,7 +36,7 @@
 
   // Reactive filtering
   $: {
-    filteredReviews = filterReviews(reviews, {
+    filteredReviews = filterReviews(reviews, filterOptions.priceRanges,  {
       search: searchTerm,
       brand: selectedBrand,
       size: selectedSize,

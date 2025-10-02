@@ -248,8 +248,16 @@ class UkuleleReviewsScraper {
 		})
 
 		metadata.brands = Array.from(brandSet).sort()
-		metadata.sizes = Array.from(sizeSet).sort()
-		metadata.priceRanges = Array.from(priceRangeSet).sort()
+		metadata.sizes = ['Soprano', 'Concert', 'Tenor', 'Baritone', 'Other']
+		metadata.priceRanges = ['<50', '50-100', '100-200', '200-500', '500+']
+
+		if (!Array.from(priceRangeSet).every((pr) => metadata.priceRanges.includes(pr))) {
+			throw new Error('Unexpected price ranges found in reviews')
+		}
+
+		if (!Array.from(sizeSet).every((sz) => metadata.sizes.map((s) => s.toLowerCase()).includes(sz))) {
+			throw new Error('Unexpected sizes found in reviews')
+		}
 
 		const metadataPath = path.join(this.outputDir, 'other-data.json')
 		await fs.writeFile(metadataPath, JSON.stringify(metadata, null, 2))
@@ -483,7 +491,7 @@ class UkuleleReviewsScraper {
 			let previousData = null
 			try {
 				const files = await fs.readdir(this.outputDir)
-				const jsonFiles = files.filter((f) => f.startsWith('ukulele-reviews-') && f.endsWith('.json'))
+				const jsonFiles = files.filter((f) => f === 'ukulele-reviews.json')
 
 				if (jsonFiles.length > 0) {
 					const latestFile = jsonFiles.sort().reverse()[0]
@@ -512,7 +520,7 @@ class UkuleleReviewsScraper {
 			}
 
 			// Save to file
-			const filename = `ukulele-reviews-${new Date().toISOString().split('T')[0]}.json`
+			const filename = `ukulele-reviews.json`
 			const filepath = path.join(this.outputDir, filename)
 
 			await fs.writeFile(filepath, JSON.stringify(output, null, 2))

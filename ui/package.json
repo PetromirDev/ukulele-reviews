@@ -4,8 +4,8 @@
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
-		"dev": "vite",
-		"update-data": "cp ../data/ukulele-reviews-*.json public/data/ && cp ../data/other-data.json public/data/",
+		"dev": "yarn update-data && vite",
+		"update-data": "cp ../data/ukulele-reviews.json public/data/ && cp ../data/other-data.json public/data/",
 		"build": "yarn update-data && vite build",
 		"preview": "vite preview",
 		"check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
