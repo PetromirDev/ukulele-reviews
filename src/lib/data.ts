@@ -33,14 +33,20 @@ export async function loadFilterOptions(): Promise<FilterOptions> {
 		return {
 			brands: data.brands || [], // Sort brands alphabetically
 			sizes: data.sizes || [],
-			priceRanges: data.priceRanges || []
+			priceRanges: data.priceRanges || [],
+			lastUpdated: new Date(data.lastUpdated).toLocaleDateString(undefined, {
+				year: 'numeric',
+				month: 'short',
+				day: 'numeric'
+			})
 		}
 	} catch (error) {
 		console.error('Failed to load filter options:', error)
 		return {
 			brands: [],
 			sizes: [],
-			priceRanges: []
+			priceRanges: [],
+			lastUpdated: ''
 		}
 	}
 }

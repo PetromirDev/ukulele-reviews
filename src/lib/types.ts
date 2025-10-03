@@ -13,4 +13,5 @@ export interface FilterOptions {
 	brands: string[]
 	sizes: string[]
 	priceRanges: string[]
+	lastUpdated: string
 }

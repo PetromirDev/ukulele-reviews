@@ -7,7 +7,7 @@
 
   let reviews: UkuleleReview[] = [];
   let filteredReviews: UkuleleReview[] = [];
-  let filterOptions: FilterOptions = { brands: [], sizes: [], priceRanges: [] };
+  let filterOptions: FilterOptions = { brands: [], sizes: [], priceRanges: [], lastUpdated: '' };
   let loading = true;
 
   // Filter state
@@ -69,7 +69,7 @@
   }
 </script>
 
-<main class="p-4 lg:p-6 min-h-screen bg-zinc-900 text-white">
+<main class="p-4 pt-8 lg:p-6 lg:pt-12 min-h-screen bg-zinc-900 text-white">
   <div class="max-w-7xl mx-auto">
   <header class="text-center mb-8 lg:mb-12">
     <h1 class="text-3xl lg:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
@@ -143,7 +143,7 @@
 
     <!-- Results Counter -->
     <div class="mb-6 text-zinc-400 text-sm">
-      <p>Showing {filteredReviews.length} of {reviews.length} reviews</p>
+      <p>Showing {filteredReviews.length} of {reviews.length} reviews. Last updated: {filterOptions.lastUpdated}</p>
     </div>
 
     <!-- Reviews Grid -->
