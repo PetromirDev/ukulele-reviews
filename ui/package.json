@@ -3,6 +3,7 @@
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
+	"packageManager": "yarn@1.22.22",
 	"scripts": {
 		"dev": "yarn update-data && vite",
 		"update-data": "cp ../data/ukulele-reviews.json public/data/ && cp ../data/other-data.json public/data/",
