@@ -69,7 +69,7 @@
   }
 </script>
 
-<main class="p-4 pt-8 lg:p-6 lg:pt-12 min-h-screen bg-zinc-900 text-white">
+<main class="p-4 pt-8 pb-12 lg:p-6 lg:pb-20 lg:pt-12 min-h-screen bg-zinc-900 text-white">
   <div class="max-w-7xl mx-auto">
   <header class="text-center mb-8 lg:mb-12">
     <h1 class="text-3xl lg:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
@@ -167,3 +167,48 @@
   {/if}
   </div>
 </main>
+<footer class="bg-zinc-900 border-t border-zinc-800">
+  <div class="max-w-7xl mx-auto px-4 py-8 flex flex-col md:flex-row md:justify-between gap-8 md:gap-4 text-zinc-400 text-sm">
+    <!-- Attributions -->
+    <div class="md:w-1/2">
+      <p class="font-semibold mb-2 text-zinc-300">Attributions:</p>
+      <ul class="space-y-1">
+        <li>
+          Meta image by 
+          <a href="https://unsplash.com/@madhatterzone?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" 
+             class="text-blue-400 hover:text-blue-300 underline" target="_blank" rel="noopener">
+            Manja Vitolic
+          </a> 
+          on 
+          <a href="https://unsplash.com/photos/cat-lies-near-ukulele-or72OK-othc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" 
+             class="text-blue-400 hover:text-blue-300 underline" target="_blank" rel="noopener">
+            Unsplash
+          </a>
+        </li>
+        <li>
+          Favicon by 
+          <a href="https://www.flaticon.com/free-icons/ukulele" 
+             title="ukulele icons" 
+             class="text-blue-400 hover:text-blue-300 underline" target="_blank" rel="noopener">
+            Ukulele icons created by Freepik - Flaticon
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- Copyright -->
+    <div class="md:w-1/2 flex flex-col justify-end items-start md:items-end">
+      <p class="mb-1 text-zinc-300 font-semibold">Ukulele Reviews</p>
+      <p class="mb-2">
+        © {new Date().getFullYear()} Ukulele Reviews.
+      </p>
+      <p>
+        Data sourced from 
+        <a href="https://www.gotaukulele.com" 
+           target="_blank" rel="noopener" 
+           class="text-blue-400 hover:text-blue-300 underline">
+          Got A Ukulele
+        </a>.
+      </p>
+    </div>
+  </div>
+</footer>
