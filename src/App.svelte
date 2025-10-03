@@ -54,11 +54,11 @@
 
   // Format price range for display
   function formatPriceRange(range: string): string {
-    if (range === '<50') return 'Under $50';
-    if (range === '500+') return '$500+';
+    if (range === '<50') return 'Under £50';
+    if (range === '500+') return '£500+';
     if (range.includes('-')) {
       const [min, max] = range.split('-');
-      return `$${min} - $${max}`;
+      return `£${min} - £${max}`;
     }
     return range;
   }

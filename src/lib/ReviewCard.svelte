@@ -7,11 +7,11 @@
 	// Format price range for display
 	function formatPriceRange(range: string): string {
 		const map: Record<string, string> = {
-			'<50': 'Under $50',
-			'50-100': '$50 - $100',
-			'100-200': '$100 - $200',
-			'200-500': '$200 - $500',
-			'500+': '$500+'
+			'<50': 'Under £50',
+			'50-100': '£50 - £100',
+			'100-200': '£100 - £200',
+			'200-500': '£200 - £500',
+			'500+': '£500+'
 		}
 		return map[range] || range
 	}
