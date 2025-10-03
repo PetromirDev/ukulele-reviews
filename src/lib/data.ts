@@ -82,7 +82,7 @@ export function filterReviews(
 		}
 
 		// Size filter
-		if (filters.size && review.size !== filters.size) {
+		if (filters.size && review.size !== filters.size.toLowerCase()) {
 			return false
 		}
 
