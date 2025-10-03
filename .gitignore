@@ -13,8 +13,7 @@
 # Other root files
 .env
 
-# Nested directories
-**/node_modules/
-**/dist/
-**/.env
+node_modules/
+dist/
+.env
 

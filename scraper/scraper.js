@@ -11,7 +11,7 @@ import Logger from './logger.js'
 class UkuleleReviewsScraper {
 	constructor(options = {}) {
 		this.sourceUrl = 'https://www.gotaukulele.com/p/ukulele-reviews.html'
-		this.outputDir = options.outputDir || '../data'
+		this.outputDir = options.outputDir || '../public/data'
 		this.userAgent =
 			'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
 		this.logger = new Logger()

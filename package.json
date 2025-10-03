@@ -5,15 +5,17 @@
 	"type": "module",
 	"packageManager": "yarn@1.22.22",
 	"scripts": {
-		"dev": "yarn update-data && vite",
-		"update-data": "cp ../data/ukulele-reviews.json public/data/ && cp ../data/other-data.json public/data/",
-		"build": "yarn update-data && vite build",
+		"dev": "vite",
+		"update-data": "node scraper/scraper.js",
+		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
 	},
 	"devDependencies": {
 		"@sveltejs/vite-plugin-svelte": "^6.2.0",
 		"@tsconfig/svelte": "^5.0.5",
+		"axios": "^1.12.2",
+		"cheerio": "^1.1.2",
 		"svelte": "^5.39.4",
 		"svelte-check": "^4.3.1",
 		"typescript": "~5.8.3",
