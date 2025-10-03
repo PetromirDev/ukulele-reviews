@@ -96,13 +96,26 @@ class UkuleleReviewsScraper {
 		return firstWord ? firstWord.toUpperCase() : 'UNKNOWN'
 	}
 
+	getEdgeCaseSize(title) {
+		const lowerTitle = title.toLowerCase().trim()
+
+		if (lowerTitle === 'enya euc-ms') return 'concert'
+
+		return null
+	}
+
 	/**
 	 * Extract ukulele size from title
 	 */
 	extractSize(title) {
 		const lowerTitle = title.toLowerCase()
 
+		if (this.getEdgeCaseSize(title)) {
+			return this.getEdgeCaseSize(title)
+		}
+
 		if (lowerTitle.includes('soprano')) return 'soprano'
+		if (lowerTitle.includes('sopranino')) return 'sopranino'
 		if (lowerTitle.includes('concert')) return 'concert'
 		if (lowerTitle.includes('tenor')) return 'tenor'
 		if (lowerTitle.includes('baritone') || lowerTitle.includes('bari ')) return 'baritone'
@@ -129,7 +142,7 @@ class UkuleleReviewsScraper {
 		let model = cleanTitle.replace(brandRegex, '').trim() || 'Unknown Model'
 
 		// Remove size from model name only if it's the last word AND there are multiple words
-		const sizeWords = ['soprano', 'concert', 'tenor', 'baritone']
+		const sizeWords = ['sopranino', 'soprano', 'concert', 'tenor', 'baritone']
 		const modelWords = model.split(/\s+/)
 
 		if (modelWords.length > 1) {
@@ -249,7 +262,7 @@ class UkuleleReviewsScraper {
 		})
 
 		metadata.brands = Array.from(brandSet).sort()
-		metadata.sizes = ['Soprano', 'Concert', 'Tenor', 'Baritone', 'Other']
+		metadata.sizes = ['Soprano', 'Concert', 'Tenor', 'Baritone', 'Sopranino', 'Other']
 		metadata.priceRanges = ['<50', '50-100', '100-200', '200-500', '500+']
 
 		if (!Array.from(priceRangeSet).every((pr) => metadata.priceRanges.includes(pr))) {

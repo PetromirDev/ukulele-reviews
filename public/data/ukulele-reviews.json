@@ -721,9 +721,9 @@
       "reviewDate": "2017-02-01"
     },
     {
-      "size": "other",
+      "size": "sopranino",
       "brand": "IUKE",
-      "model": "PICCOLO MINI SOPRANINO",
+      "model": "PICCOLO MINI",
       "priceRange": "<50",
       "url": "http://www.gotaukulele.com/2014/07/iuke-piccolo-mini-ukulele-review.html",
       "rating": 7.9,
@@ -865,9 +865,9 @@
       "reviewDate": "2017-01-01"
     },
     {
-      "size": "other",
+      "size": "sopranino",
       "brand": "ORTEGA",
-      "model": "KEIKI K1 SOPRANINO",
+      "model": "KEIKI K1",
       "priceRange": "<50",
       "url": "https://www.gotaukulele.com/2019/07/ortega-keiki-k1-sopranino-ukulele-review.html",
       "rating": 6.3,
@@ -1171,7 +1171,7 @@
       "reviewDate": "2009-12-01"
     },
     {
-      "size": "other",
+      "size": "concert",
       "brand": "ENYA",
       "model": "EUC-MS",
       "priceRange": "<50",
@@ -1369,9 +1369,9 @@
       "reviewDate": "2021-07-01"
     },
     {
-      "size": "other",
+      "size": "sopranino",
       "brand": "KIWAYA",
-      "model": "U-TRIP-01 SOPRANINO",
+      "model": "U-TRIP-01",
       "priceRange": "<50",
       "url": "https://www.gotaukulele.com/2023/10/kiwaya-u-trip-01-sopranino-ukulele.html",
       "rating": 8.6,
@@ -1522,9 +1522,9 @@
       "reviewDate": "2023-01-01"
     },
     {
-      "size": "other",
+      "size": "sopranino",
       "brand": "OHANA",
-      "model": "O'NINO SOPRANINO",
+      "model": "O'NINO",
       "priceRange": "<50",
       "url": "http://www.gotaukulele.com/2016/11/ohana-onino-sopranissimo-ukulele-review.html",
       "rating": 8.4,
@@ -1540,9 +1540,9 @@
       "reviewDate": "2025-02-01"
     },
     {
-      "size": "other",
+      "size": "sopranino",
       "brand": "OHANA",
-      "model": "TPK-25G SHORT SCALE SOPRANINO",
+      "model": "TPK-25G SHORT SCALE",
       "priceRange": "<50",
       "url": "https://www.gotaukulele.com/2021/10/ohana-tpk-25g-short-scale-sopranino.html",
       "rating": 8.8,
@@ -2728,9 +2728,9 @@
       "reviewDate": "2023-09-01"
     },
     {
-      "size": "other",
+      "size": "sopranino",
       "brand": "BAGARMOSSENS",
-      "model": "MANUFAKTUR SOPRANINO",
+      "model": "MANUFAKTUR",
       "priceRange": "100-200",
       "url": "https://www.gotaukulele.com/2025/05/bagarmossens-ukulelemanufaktur.html",
       "rating": 9.4,
@@ -3234,10 +3234,10 @@
   ],
   "metadata": {
     "sourceUrl": "https://www.gotaukulele.com/p/ukulele-reviews.html",
-    "scrapedAt": 1759507655891,
+    "scrapedAt": 1759518497787,
     "total": 359,
     "diffReport": {
-      "timestamp": "2025-10-03T16:07:35.891Z",
+      "timestamp": "2025-10-03T19:08:17.787Z",
       "changes": {
         "new": [],
         "updated": [],
