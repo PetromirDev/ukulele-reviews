@@ -18,11 +18,11 @@ class UkuleleReviewsScraper {
 
 		// Price range mappings
 		this.priceRanges = {
-			'0 - 50': '<50',
-			'50- 100': '50-100',
-			'100 - 200': '100-200',
-			'200 - 500': '200-500',
-			'500 plus': '500+'
+			'Ukuleles £0 - £50': '<50',
+			'Ukuleles £50- £100': '50-100',
+			'Ukuleles £100 - £200': '100-200',
+			'Ukuleles £200 - £500': '200-500',
+			'Ukuleles £500 plus': '500+'
 		}
 
 		this.ensureOutputDir()
@@ -305,13 +305,34 @@ class UkuleleReviewsScraper {
 		}
 	}
 
+	isHigherInDom(node1, node2) {
+		return node1.startIndex < node2.startIndex
+	}
+
+	extractReviewPrice(node, priceTitles, $) {
+		let priceNode = priceTitles[0]
+
+		priceTitles.forEach((priceTitleNode) => {
+			if (!this.isHigherInDom(node, priceTitleNode, $)) {
+				priceNode = priceTitleNode
+			}
+		})
+
+		return this.mapPriceRange(priceNode.data)
+	}
+
 	/**
 	 * Extract all ukulele reviews from the page
 	 */
 	async extractAllReviews() {
 		this.logger.info('Fetching main reviews page...')
 		const html = await this.makeRequest(this.sourceUrl)
-		const $ = cheerio.load(html)
+		const $ = cheerio.load(html, {
+			xml: {
+				withStartIndices: true,
+				withEndIndices: true
+			}
+		})
 
 		// Extract brands from tag cloud first
 		const brandList = this.extractBrandsFromTagCloud(html)
@@ -321,7 +342,24 @@ class UkuleleReviewsScraper {
 
 		// Get the main content area
 		const mainContent = $('.post-body').html() || $('body').html()
-		const $main = cheerio.load(mainContent)
+		const $main = cheerio.load(mainContent, {
+			xml: {
+				withStartIndices: true,
+				withEndIndices: true
+			}
+		})
+
+		// Get all price range title nodes for context
+		const priceTitleNodes = []
+
+		Object.keys(this.priceRanges).forEach((priceTitle) => {
+			$main('b > span').each((_, element) => {
+				const text = $main(element).text().trim()
+				if (text.startsWith(priceTitle)) {
+					priceTitleNodes.push(element.children[0])
+				}
+			})
+		})
 
 		// Find all review links and collect their data
 		$main('a[href*="gotaukulele.com"]').each((i, element) => {
@@ -355,11 +393,13 @@ class UkuleleReviewsScraper {
 				const dateStr = match[2].trim()
 				const reviewDate = this.parseReviewDate(dateStr)
 				const size = this.extractSize(linkText)
+				const priceRange = this.extractReviewPrice($link[0], priceTitleNodes, $)
 
 				allReviewData.push({
 					title: linkText,
 					url: href.startsWith('http') ? href : `https://www.gotaukulele.com${href}`,
 					rating,
+					priceRange,
 					reviewDate,
 					size,
 					index: i
@@ -369,27 +409,8 @@ class UkuleleReviewsScraper {
 
 		this.logger.info(`Found ${allReviewData.length} review links`)
 
-		// Define price range boundaries based on index positions
-		const totalReviews = allReviewData.length
-		const priceRangeBoundaries = {
-			'<50': { start: 0, end: Math.floor(totalReviews * 0.67) }, // First ~67% are <50
-			'50-100': { start: Math.floor(totalReviews * 0.67), end: Math.floor(totalReviews * 0.84) }, // Next ~17% are 50-100
-			'100-200': { start: Math.floor(totalReviews * 0.84), end: Math.floor(totalReviews * 0.9) }, // Next ~6% are 100-200
-			'200-500': { start: Math.floor(totalReviews * 0.9), end: Math.floor(totalReviews * 0.94) }, // Next ~4% are 200-500
-			'500+': { start: Math.floor(totalReviews * 0.94), end: totalReviews } // Last ~6% are 500+
-		}
-
 		// Map each review to its price range and extract brand/model
 		const reviews = allReviewData.map((reviewData, index) => {
-			// Determine price range based on index
-			let priceRange = 'unknown'
-			for (const [range, bounds] of Object.entries(priceRangeBoundaries)) {
-				if (index >= bounds.start && index < bounds.end) {
-					priceRange = range
-					break
-				}
-			}
-
 			// Extract brand and model using tag cloud brands
 			const brandModel = this.extractBrandAndModel(reviewData.title, brandList)
 
@@ -397,7 +418,7 @@ class UkuleleReviewsScraper {
 				size: reviewData.size,
 				brand: brandModel.brand,
 				model: brandModel.model,
-				priceRange,
+				priceRange: reviewData.priceRange,
 				url: reviewData.url,
 				rating: reviewData.rating,
 				reviewDate: reviewData.reviewDate
@@ -451,11 +472,11 @@ class UkuleleReviewsScraper {
 		this.logger.debug(`Mapping price range: "${priceRangeText}" -> "${cleanText}"`)
 
 		// Handle variations based on debug output patterns
-		if (cleanText.includes('0 -') || cleanText.startsWith('0-')) return '<50'
-		if (cleanText.includes('50-') || cleanText.includes('50 -')) return '50-100'
-		if (cleanText.includes('100 -') || cleanText.includes('100-')) return '100-200'
-		if (cleanText.includes('200 -') || cleanText.includes('200-')) return '200-500'
 		if (cleanText.includes('500') && (cleanText.includes('plus') || cleanText.includes('+'))) return '500+'
+		if (cleanText.includes('200 -') || cleanText.includes('200-')) return '200-500'
+		if (cleanText.includes('100 -') || cleanText.includes('100-')) return '100-200'
+		if (cleanText.includes('50-') || cleanText.includes('50 -')) return '50-100'
+		if (cleanText.includes('0 -') || cleanText.startsWith('0-')) return '<50'
 
 		return 'unknown'
 	}
