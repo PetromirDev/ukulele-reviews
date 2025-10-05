@@ -1,6 +1,24 @@
 {
   "data": [
     {
+      "size": "other",
+      "brand": "IN",
+      "model": "fact - this rant on the subject may interest you..&nbsp;",
+      "priceRange": "<50",
+      "url": "http://www.gotaukulele.com/2016/03/why-cant-people-accept-that-ukulele.html?utm_source=twitterfeed&utm_medium=twitter",
+      "rating": 7.8,
+      "reviewDate": "2015-02-01"
+    },
+    {
+      "size": "other",
+      "brand": "POLICY",
+      "model": "on monetisation on Got A",
+      "priceRange": "<50",
+      "url": "http://www.gotaukulele.com/2017/08/a-short-word-about-monetisation-on-got.html",
+      "rating": 7.8,
+      "reviewDate": "2015-02-01"
+    },
+    {
       "size": "soprano",
       "brand": "ALIC",
       "model": "SOPRANO",
@@ -244,6 +262,15 @@
       "reviewDate": "2017-01-01"
     },
     {
+      "size": "other",
+      "brand": "MAHALO",
+      "model": "FLYING V&nbsp;",
+      "priceRange": "<50",
+      "url": "http://www.gotaukulele.com/2013/11/mahalo-ufv1g-flying-v-ukulele-review.html",
+      "rating": 4,
+      "reviewDate": "2013-11-01"
+    },
+    {
       "size": "concert",
       "brand": "MAHALO",
       "model": "HANO",
@@ -269,6 +296,15 @@
       "url": "https://www.gotaukulele.com/2025/07/mahalo-ms1tbr-slimline-series-soprano.html",
       "rating": 6.1,
       "reviewDate": "2025-07-01"
+    },
+    {
+      "size": "soprano",
+      "brand": "MAKALA",
+      "model": "DOLPHIN",
+      "priceRange": "<50",
+      "url": "http://www.gotaukulele.com/2010/04/red-special-arrives-makala-dolphin.html",
+      "rating": 7.9,
+      "reviewDate": "2010-04-01"
     },
     {
       "size": "soprano",
@@ -334,6 +370,15 @@
       "reviewDate": "2024-11-01"
     },
     {
+      "size": "soprano",
+      "brand": "OCTOPUS",
+      "model": "SOPRANO",
+      "priceRange": "<50",
+      "url": "http://www.gotaukulele.com/2014/04/octopus-soprano-ukulele-review.html",
+      "rating": 8.4,
+      "reviewDate": "2014-04-01"
+    },
+    {
       "size": "concert",
       "brand": "OCTOPUS",
       "model": "UK215C",
@@ -343,6 +388,15 @@
       "reviewDate": "2021-03-01"
     },
     {
+      "size": "soprano",
+      "brand": "READY ACE",
+      "model": "SOPRANO",
+      "priceRange": "<50",
+      "url": "http://www.gotaukulele.com/2014/03/why-do-we-accept-cheap-junk-ukuleles.html",
+      "rating": 6.3,
+      "reviewDate": "2014-03-01"
+    },
+    {
       "size": "other",
       "brand": "SCHOENHUT",
       "model": "OAK MAHOGANY",
@@ -350,6 +404,15 @@
       "url": "http://www.gotaukulele.com/2014/03/schoenhut-oak-mahogany-ukulele-review.html",
       "rating": 6.3,
       "reviewDate": "2014-03-01"
+    },
+    {
+      "size": "soprano",
+      "brand": "STAGG",
+      "model": "US10",
+      "priceRange": "<50",
+      "url": "http://www.gotaukulele.com/2015/02/stagg-us10-soprano-ukulele-review.html",
+      "rating": 7.5,
+      "reviewDate": "2018-04-01"
     },
     {
       "size": "soprano",
@@ -397,6 +460,15 @@
       "reviewDate": "2023-10-01"
     },
     {
+      "size": "soprano",
+      "brand": "WOODI",
+      "model": "SOPRANO",
+      "priceRange": "<50",
+      "url": "http://www.gotaukulele.com/2014/06/woodi-rocket-soprano-ukulele-review.html",
+      "rating": 8,
+      "reviewDate": "2014-06-01"
+    },
+    {
       "size": "concert",
       "brand": "ASHBURY",
       "model": "AU50",
@@ -415,6 +487,15 @@
       "reviewDate": "2021-04-01"
     },
     {
+      "size": "concert",
+      "brand": "BATON ROUGE",
+      "model": "V2C SUN",
+      "priceRange": "50-100",
+      "url": "http://www.gotaukulele.com/2014/09/baton-rouge-v2c-sun-concert-ukulele.html",
+      "rating": 8.9,
+      "reviewDate": "2014-09-01"
+    },
+    {
       "size": "soprano",
       "brand": "BATON ROUGE",
       "model": "V2 SW SUN Wide nut",
@@ -422,6 +503,15 @@
       "url": "https://www.gotaukulele.com/2018/05/baton-rouge-v2-sw-sun-soprano-ukulele.html",
       "rating": 9,
       "reviewDate": "2018-05-01"
+    },
+    {
+      "size": "concert",
+      "brand": "BRUNSWICK",
+      "model": "BU4C",
+      "priceRange": "50-100",
+      "url": "https://www.gotaukulele.com/2018/06/brunswick-bu4c-concert-ukulele-review.html",
+      "rating": 8.9,
+      "reviewDate": "2018-06-01"
     },
     {
       "size": "other",
@@ -498,6 +588,15 @@
     {
       "size": "concert",
       "brand": "DONNER",
+      "model": "DUC-1",
+      "priceRange": "50-100",
+      "url": "https://www.gotaukulele.com/2020/01/donner-duc-1-concert-ukulele-review.html",
+      "rating": 8.5,
+      "reviewDate": "2020-01-01"
+    },
+    {
+      "size": "concert",
+      "brand": "DONNER",
       "model": "DUC-3",
       "priceRange": "50-100",
       "url": "http://www.gotaukulele.com/2017/04/donner-duc-3-concert-ukulele-review.html",
@@ -548,6 +647,24 @@
       "url": "http://www.gotaukulele.com/2012/11/eleuke-peanut-electric-ukulele-review.html",
       "rating": 5.8,
       "reviewDate": "2012-11-01"
+    },
+    {
+      "size": "concert",
+      "brand": "ENYA",
+      "model": "EUC-MS",
+      "priceRange": "50-100",
+      "url": "https://www.gotaukulele.com/2020/10/enya-euc-ms-concert-ukulele-review.html",
+      "rating": 8.9,
+      "reviewDate": "2020-10-01"
+    },
+    {
+      "size": "concert",
+      "brand": "ENYA",
+      "model": "EUC-X1M",
+      "priceRange": "50-100",
+      "url": "https://www.gotaukulele.com/2019/03/enya-euc-x1m-concert-ukulele-review.html",
+      "rating": 8.8,
+      "reviewDate": "2019-03-01"
     },
     {
       "size": "soprano",
@@ -722,12 +839,39 @@
     },
     {
       "size": "soprano",
+      "brand": "KAKA",
+      "model": "KUS-25D",
+      "priceRange": "50-100",
+      "url": "http://www.gotaukulele.com/2016/10/kaka-kus-25d-soprano-review.html",
+      "rating": 6,
+      "reviewDate": "2016-10-01"
+    },
+    {
+      "size": "soprano",
+      "brand": "KALA",
+      "model": "KA-S",
+      "priceRange": "50-100",
+      "url": "http://www.gotaukulele.com/2015/09/soprano-ukulele-shootout-ohana-sk-10-vs.html",
+      "rating": 8.3,
+      "reviewDate": "2015-09-01"
+    },
+    {
+      "size": "soprano",
       "brand": "KALA",
       "model": "KA-SLNG Long Neck",
       "priceRange": "50-100",
       "url": "https://www.gotaukulele.com/2018/07/kala-ka-slng-long-neck-soprano-ukulele.html",
       "rating": 8,
       "reviewDate": "2018-01-01"
+    },
+    {
+      "size": "soprano",
+      "brand": "KALA",
+      "model": "LTP-S Soprano - 7.9 out of 10",
+      "priceRange": "50-100",
+      "url": "https://www.gotaukulele.com/2021/07/kala-ltp-s-learn-to-play-ukulele.html",
+      "rating": 8.1,
+      "reviewDate": "2011-08-01"
     },
     {
       "size": "other",
@@ -782,6 +926,15 @@
       "url": "http://www.gotaukulele.com/2017/12/luna-honu-turtle-soprano-ukulele-review.html",
       "rating": 6.6,
       "reviewDate": "2017-12-01"
+    },
+    {
+      "size": "concert",
+      "brand": "LUNA",
+      "model": "TATTOO",
+      "priceRange": "50-100",
+      "url": "http://www.gotaukulele.com/2015/10/luna-tattoo-concert-ukulele-review.html",
+      "rating": 6.9,
+      "reviewDate": "2015-10-01"
     },
     {
       "size": "tenor",
@@ -874,6 +1027,15 @@
       "reviewDate": "2021-05-01"
     },
     {
+      "size": "other",
+      "brand": "OZARK",
+      "model": "2035 BANJOLELE",
+      "priceRange": "50-100",
+      "url": "http://www.gotaukulele.com/2010/04/ozark-banjo-uke-initial-review.html",
+      "rating": 8,
+      "reviewDate": "2010-04-01"
+    },
+    {
       "size": "concert",
       "brand": "PAISEN",
       "model": "ROSEWOOD",
@@ -910,6 +1072,24 @@
       "reviewDate": "2022-01-01"
     },
     {
+      "size": "soprano",
+      "brand": "SNAIL",
+      "model": "UKS-220 ROSEWOOD",
+      "priceRange": "50-100",
+      "url": "http://www.gotaukulele.com/2015/04/snail-uks-220-rosewood-soprano-ukulele.html",
+      "rating": 8.9,
+      "reviewDate": "2015-04-01"
+    },
+    {
+      "size": "concert",
+      "brand": "ARIA",
+      "model": "SOUTHERN STORE (ARIA) ALL SOLID",
+      "priceRange": "50-100",
+      "url": "http://www.gotaukulele.com/2013/03/southern-ukulele-store-all-solid.html",
+      "rating": 8.6,
+      "reviewDate": "2013-03-01"
+    },
+    {
       "size": "concert",
       "brand": "VANGOA",
       "model": "MAHOGANY",
@@ -926,6 +1106,42 @@
       "url": "https://www.gotaukulele.com/2024/09/vangoa-vu703-concert-ukulele-review.html",
       "rating": 8.1,
       "reviewDate": "2024-01-01"
+    },
+    {
+      "size": "concert",
+      "brand": "VTAB",
+      "model": "EL-55D",
+      "priceRange": "50-100",
+      "url": "https://www.gotaukulele.com/2020/05/vtab-el-55d-concert-ukulele-review.html",
+      "rating": 9,
+      "reviewDate": "2020-05-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "VTAB",
+      "model": "FL-T15",
+      "priceRange": "50-100",
+      "url": "http://www.gotaukulele.com/2017/11/vtab-fl-t15-tenor-ukulele-review.html",
+      "rating": 8.8,
+      "reviewDate": "2017-11-01"
+    },
+    {
+      "size": "other",
+      "brand": "VTAB",
+      "model": "MV-TS2401",
+      "priceRange": "50-100",
+      "url": "http://www.gotaukulele.com/2017/07/vtab-mv-ts2401-concert-ukulele-review.html",
+      "rating": 8.8,
+      "reviewDate": "2017-07-01"
+    },
+    {
+      "size": "concert",
+      "brand": "AIERSI",
+      "model": "SU-044T",
+      "priceRange": "100-200",
+      "url": "http://www.gotaukulele.com/2016/02/aiersi-su-044t-concert-ukulele-review.html",
+      "rating": 8.5,
+      "reviewDate": "2016-01-01"
     },
     {
       "size": "soprano",
@@ -953,6 +1169,15 @@
       "url": "http://www.gotaukulele.com/2017/02/andys-ukuleles-nano-review.html",
       "rating": 8.5,
       "reviewDate": "2017-02-01"
+    },
+    {
+      "size": "other",
+      "brand": "ANDY'S",
+      "model": "PICCOLO",
+      "priceRange": "100-200",
+      "url": "http://www.gotaukulele.com/2018/03/andys-ukuleles-lacewood-piccolo-review.html",
+      "rating": 9.1,
+      "reviewDate": "2018-03-01"
     },
     {
       "size": "other",
@@ -1009,6 +1234,15 @@
       "reviewDate": "2021-06-01"
     },
     {
+      "size": "tenor",
+      "brand": "BATON ROUGE",
+      "model": "UTM-T rECOtimber",
+      "priceRange": "100-200",
+      "url": "https://www.gotaukulele.com/2023/11/baton-rouge-utm-t-recotimber-ukulele.html",
+      "rating": 9.1,
+      "reviewDate": "2023-11-01"
+    },
+    {
       "size": "other",
       "brand": "BATON ROUGE",
       "model": "V2 T5 5 STRING",
@@ -1019,12 +1253,30 @@
     },
     {
       "size": "tenor",
+      "brand": "BATON ROUGE",
+      "model": "V2 T8 SUN 8 STRING",
+      "priceRange": "100-200",
+      "url": "http://www.gotaukulele.com/2017/01/baton-rouge-v2-t8-sun-8-string-tenor.html",
+      "rating": 8.9,
+      "reviewDate": "2017-01-01"
+    },
+    {
+      "size": "tenor",
       "brand": "BLACKWATER",
       "model": "SPALTED MAPLE",
       "priceRange": "100-200",
       "url": "https://www.gotaukulele.com/2022/02/blackwater-ywuk-27fmeq-tenor-review.html",
       "rating": 8.9,
       "reviewDate": "2022-02-01"
+    },
+    {
+      "size": "soprano",
+      "brand": "BRÜKO",
+      "model": "No.6 SOPRANO&nbsp;",
+      "priceRange": "100-200",
+      "url": "http://www.gotaukulele.com/2012/05/bruko-no6-soprano-ukulele-review.html",
+      "rating": 8.6,
+      "reviewDate": "2012-05-01"
     },
     {
       "size": "soprano",
@@ -1045,11 +1297,47 @@
       "reviewDate": "2019-02-01"
     },
     {
+      "size": "concert",
+      "brand": "BONANZA",
+      "model": "- HPL",
+      "priceRange": "100-200",
+      "url": "http://www.gotaukulele.com/2017/08/bonanza-ukuleles-hpl-concert-review.html",
+      "rating": 8.8,
+      "reviewDate": "2017-08-01"
+    },
+    {
       "size": "other",
       "brand": "BUZZARDS FIELD",
       "model": "AFAN BASS",
       "priceRange": "100-200",
       "url": "http://www.gotaukulele.com/2014/09/buzzards-field-afan-ukulele-bass-review.html",
+      "rating": 8.8,
+      "reviewDate": "2014-09-01"
+    },
+    {
+      "size": "baritone",
+      "brand": "CLEARWATER",
+      "model": "ROUNDBACK",
+      "priceRange": "100-200",
+      "url": "http://www.gotaukulele.com/2016/07/clearwater-ucw7bpu-roundback-baritone.html",
+      "rating": 8.8,
+      "reviewDate": "2016-01-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "CLEARWATER",
+      "model": "/ VORSON ELECTRIC LES PAUL",
+      "priceRange": "100-200",
+      "url": "https://www.gotaukulele.com/2019/06/vorson-flpuk-2-lp-clearwater-ucwlvs.html",
+      "rating": 8.8,
+      "reviewDate": "2019-01-01"
+    },
+    {
+      "size": "concert",
+      "brand": "CLOUD",
+      "model": "MUSIC HM12",
+      "priceRange": "100-200",
+      "url": "http://www.gotaukulele.com/2014/09/cloudmusic-hm12-concert-ukulele-review.html",
       "rating": 8.8,
       "reviewDate": "2014-09-01"
     },
@@ -1153,6 +1441,15 @@
       "reviewDate": "2020-10-01"
     },
     {
+      "size": "tenor",
+      "brand": "ENYA",
+      "model": "EUT-M6",
+      "priceRange": "100-200",
+      "url": "https://www.gotaukulele.com/2018/12/enya-eut-m6-tenor-ukulele-review.html",
+      "rating": 8.9,
+      "reviewDate": "2018-12-01"
+    },
+    {
       "size": "other",
       "brand": "ENYA",
       "model": "NOVA U CARBON TRAVEL",
@@ -1163,12 +1460,30 @@
     },
     {
       "size": "tenor",
+      "brand": "ENYA",
+      "model": "NOVA U PRO TENOR - 9.3",
+      "priceRange": "100-200",
+      "url": "https://www.gotaukulele.com/2021/05/enya-nova-u-pro-tenor-ukulele-review.html",
+      "rating": 8.3,
+      "reviewDate": "2019-01-01"
+    },
+    {
+      "size": "tenor",
       "brand": "EPIPHONE",
       "model": "HUMMINGBIRD",
       "priceRange": "100-200",
       "url": "https://www.gotaukulele.com/2019/01/epiphone-hummingbird-tenor-ukulele.html",
       "rating": 8.3,
       "reviewDate": "2019-01-01"
+    },
+    {
+      "size": "soprano",
+      "brand": "FAMOUS",
+      "model": "(KIWAYA) FS-1",
+      "priceRange": "100-200",
+      "url": "https://www.gotaukulele.com/2018/05/famous-fs-1-soprano-ukulele-review.html",
+      "rating": 8.8,
+      "reviewDate": "2018-05-01"
     },
     {
       "size": "other",
@@ -1198,6 +1513,15 @@
       "reviewDate": "2018-12-01"
     },
     {
+      "size": "soprano",
+      "brand": "FLEA",
+      "model": "SOPRANO",
+      "priceRange": "100-200",
+      "url": "http://www.gotaukulele.com/2010/05/flea-ukulele-from-magic-fluke-company.html",
+      "rating": 8.4,
+      "reviewDate": "2010-05-01"
+    },
+    {
       "size": "baritone",
       "brand": "FLIGHT",
       "model": "CARABAO",
@@ -1209,11 +1533,29 @@
     {
       "size": "concert",
       "brand": "FLIGHT",
+      "model": "DUC460 AMARA",
+      "priceRange": "100-200",
+      "url": "http://www.gotaukulele.com/2017/10/flight-duc460-amara-concert-ukulele.html",
+      "rating": 8.3,
+      "reviewDate": "2017-10-01"
+    },
+    {
+      "size": "concert",
+      "brand": "FLIGHT",
       "model": "IRIS",
       "priceRange": "100-200",
       "url": "https://www.gotaukulele.com/2023/03/flight-iris-concert-ukulele-review.html",
       "rating": 8.9,
       "reviewDate": "2023-03-01"
+    },
+    {
+      "size": "concert",
+      "brand": "FLUKE",
+      "model": "CONCERT&nbsp;",
+      "priceRange": "100-200",
+      "url": "http://www.gotaukulele.com/2010/10/fluke-ukulele-review.html",
+      "rating": 8.4,
+      "reviewDate": "2010-08-01"
     },
     {
       "size": "concert",
@@ -1232,6 +1574,24 @@
       "url": "https://www.gotaukulele.com/2023/09/gewa-manoa-m-co-concert-ukulele-review.html",
       "rating": 7.9,
       "reviewDate": "2023-09-01"
+    },
+    {
+      "size": "other",
+      "brand": "GOLD TONE",
+      "model": "LITTLE GEM BANJO",
+      "priceRange": "100-200",
+      "url": "https://www.gotaukulele.com/2018/09/gold-tone-little-gem-banjo-ukulele.html",
+      "rating": 8.8,
+      "reviewDate": "2018-01-01"
+    },
+    {
+      "size": "concert",
+      "brand": "GRETSCH",
+      "model": "G9110",
+      "priceRange": "100-200",
+      "url": "https://www.gotaukulele.com/2018/12/gretsch-g9110-concert-ukulele-review.html",
+      "rating": 8.8,
+      "reviewDate": "2018-12-01"
     },
     {
       "size": "tenor",
@@ -1270,6 +1630,15 @@
       "reviewDate": "2023-01-01"
     },
     {
+      "size": "soprano",
+      "brand": "ISLANDER",
+      "model": "MS-4",
+      "priceRange": "100-200",
+      "url": "https://www.gotaukulele.com/2019/09/islander-ms-4-soprano-ukulele-review.html",
+      "rating": 8.9,
+      "reviewDate": "2019-01-01"
+    },
+    {
       "size": "baritone",
       "brand": "ISUZI",
       "model": "EAK-B",
@@ -1288,6 +1657,33 @@
       "reviewDate": "2017-12-01"
     },
     {
+      "size": "sopranino",
+      "brand": "JOHN",
+      "model": "DANIEL PIXIE",
+      "priceRange": "100-200",
+      "url": "http://www.gotaukulele.com/2014/01/john-daniel-pixie-sopranino-ukulele.html",
+      "rating": 8.8,
+      "reviewDate": "2014-01-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "KAI",
+      "model": "KTI-700",
+      "priceRange": "100-200",
+      "url": "https://www.gotaukulele.com/2019/12/kai-kti-700-tenor-ukulele-review.html",
+      "rating": 9,
+      "reviewDate": "2019-12-01"
+    },
+    {
+      "size": "concert",
+      "brand": "KALA",
+      "model": "KA-BMB-C",
+      "priceRange": "100-200",
+      "url": "https://www.gotaukulele.com/2020/08/kala-ka-bmb-c-all-bamboo-concert.html",
+      "rating": 8.9,
+      "reviewDate": "2020-08-01"
+    },
+    {
       "size": "tenor",
       "brand": "KALA",
       "model": "KA-EBY-T STRIPED EBONY",
@@ -1297,6 +1693,15 @@
       "reviewDate": "2019-11-01"
     },
     {
+      "size": "concert",
+      "brand": "KALA",
+      "model": "KA-SSTU-C TRAVEL",
+      "priceRange": "100-200",
+      "url": "http://www.gotaukulele.com/2015/12/kala-ka-sstu-c-travel-concert-review.html",
+      "rating": 8.6,
+      "reviewDate": "2015-12-01"
+    },
+    {
       "size": "tenor",
       "brand": "KALA",
       "model": "KA-TGE",
@@ -1304,6 +1709,15 @@
       "url": "https://www.gotaukulele.com/2020/11/kala-ka-tge-tenor-ukulele-review.html",
       "rating": 7.8,
       "reviewDate": "2020-11-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "KALA",
+      "model": "KA-ZCT-T ZIRICOTE",
+      "priceRange": "100-200",
+      "url": "http://www.gotaukulele.com/2016/08/kala-ka-zct-t-ziricote-tenor-ukulele.html",
+      "rating": 8.6,
+      "reviewDate": "2016-08-01"
     },
     {
       "size": "concert",
@@ -1459,6 +1873,24 @@
       "reviewDate": "2010-05-01"
     },
     {
+      "size": "soprano",
+      "brand": "MAINLAND",
+      "model": "RED CEDAR GLOSS",
+      "priceRange": "100-200",
+      "url": "http://www.gotaukulele.com/2017/05/mainland-red-cedar-gloss-soprano-review.html",
+      "rating": 8.6,
+      "reviewDate": "2017-05-01"
+    },
+    {
+      "size": "concert",
+      "brand": "MOSELELE",
+      "model": "SOLID ELECTRO CONCERT BAMBOOKULELE",
+      "priceRange": "100-200",
+      "url": "http://www.gotaukulele.com/2015/03/moselele-solid-electro-concert.html",
+      "rating": 8.6,
+      "reviewDate": "2015-03-01"
+    },
+    {
       "size": "tenor",
       "brand": "NOAH",
       "model": "MONKEYPOD",
@@ -1466,6 +1898,15 @@
       "url": "http://www.gotaukulele.com/2013/12/noah-monkeypod-tenor-ukulele-review.html",
       "rating": 8.5,
       "reviewDate": "2013-12-01"
+    },
+    {
+      "size": "concert",
+      "brand": "NOAH",
+      "model": "MAHOGANY",
+      "priceRange": "100-200",
+      "url": "http://www.gotaukulele.com/2014/02/noah-mahogany-tenor-ukulele-review.html",
+      "rating": 8.6,
+      "reviewDate": "2014-02-01"
     },
     {
       "size": "concert",
@@ -1522,6 +1963,15 @@
       "reviewDate": "2025-02-01"
     },
     {
+      "size": "soprano",
+      "brand": "OHANA",
+      "model": "SK-25 SOPRANO&nbsp;",
+      "priceRange": "100-200",
+      "url": "http://www.gotaukulele.com/2012/10/ohana-sk-25-soprano-ukulele-review.html",
+      "rating": 8.5,
+      "reviewDate": "2012-10-01"
+    },
+    {
       "size": "sopranino",
       "brand": "OHANA",
       "model": "TPK-25G SHORT SCALE",
@@ -1529,6 +1979,15 @@
       "url": "https://www.gotaukulele.com/2021/10/ohana-tpk-25g-short-scale-sopranino.html",
       "rating": 8.8,
       "reviewDate": "2021-10-01"
+    },
+    {
+      "size": "concert",
+      "brand": "OMEGA",
+      "model": "ZEDRO II",
+      "priceRange": "100-200",
+      "url": "http://www.gotaukulele.com/2014/11/omega-music-zedro-ii-concert-ukulele.html",
+      "rating": 8.9,
+      "reviewDate": "2014-11-01"
     },
     {
       "size": "tenor",
@@ -1595,12 +2054,30 @@
     },
     {
       "size": "concert",
+      "brand": "RIPTIDE",
+      "model": "EUC-5NS ELECTRO",
+      "priceRange": "100-200",
+      "url": "http://www.gotaukulele.com/2013/02/riptide-euc-5ns-electro-concert-ukulele.html",
+      "rating": 8.8,
+      "reviewDate": "2013-02-01"
+    },
+    {
+      "size": "concert",
       "brand": "RISA",
       "model": "-SOLID",
       "priceRange": "100-200",
       "url": "http://www.gotaukulele.com/2012/07/risa-uke-solid-concert-ukulele-review.html",
       "rating": 8.3,
       "reviewDate": "2012-07-01"
+    },
+    {
+      "size": "concert",
+      "brand": "SNAIL",
+      "model": "BH-1C",
+      "priceRange": "100-200",
+      "url": "https://www.gotaukulele.com/2018/06/snail-bh-1c-concert-ukulele-review.html",
+      "rating": 8.9,
+      "reviewDate": "2018-06-01"
     },
     {
       "size": "tenor",
@@ -1619,6 +2096,24 @@
       "url": "https://www.gotaukulele.com/2024/03/snail-ukc-470-quilted-ash-concert.html",
       "rating": 8.6,
       "reviewDate": "2024-03-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "SNAIL",
+      "model": "UKT-528",
+      "priceRange": "100-200",
+      "url": "http://www.gotaukulele.com/2016/12/snail-ukt-528-tenor-review.html",
+      "rating": 9,
+      "reviewDate": "2016-12-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "SOUND",
+      "model": "SMITH RESONATOR",
+      "priceRange": "100-200",
+      "url": "https://www.gotaukulele.com/2018/05/sound-smith-resonator-tenor-ukulele.html",
+      "rating": 8.9,
+      "reviewDate": "2018-05-01"
     },
     {
       "size": "concert",
@@ -1655,6 +2150,15 @@
       "url": "https://www.gotaukulele.com/2021/12/twisted-wood-ember-concert-ukulele.html",
       "rating": 8.6,
       "reviewDate": "2021-12-01"
+    },
+    {
+      "size": "concert",
+      "brand": "TWISTED",
+      "model": "WOOD SIERRA",
+      "priceRange": "100-200",
+      "url": "https://www.gotaukulele.com/2022/04/twisted-wood-se-900c-sierra-concert.html",
+      "rating": 8.8,
+      "reviewDate": "2022-04-01"
     },
     {
       "size": "tenor",
@@ -1702,6 +2206,24 @@
       "reviewDate": "2018-06-01"
     },
     {
+      "size": "sopranino",
+      "brand": "ANTICA",
+      "model": "RIA ALLEGRO",
+      "priceRange": "200-500",
+      "url": "https://www.gotaukulele.com/2020/08/antica-ukuleleria-allegro-sopranino.html",
+      "rating": 8.9,
+      "reviewDate": "2020-08-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "ANTICA",
+      "model": "RIA UFOS",
+      "priceRange": "200-500",
+      "url": "https://www.gotaukulele.com/2018/08/antica-ukuleleria-ufos-tenor-review.html",
+      "rating": 9.4,
+      "reviewDate": "2018-08-01"
+    },
+    {
       "size": "soprano",
       "brand": "ANTICA",
       "model": "RIA SACCO",
@@ -1711,6 +2233,33 @@
       "reviewDate": "2020-07-01"
     },
     {
+      "size": "concert",
+      "brand": "ANUENUE",
+      "model": "AFRICA MAHOGANY II",
+      "priceRange": "200-500",
+      "url": "http://www.gotaukulele.com/2016/03/anuenue-africa-mahogany-ii-concert.html",
+      "rating": 9,
+      "reviewDate": "2016-01-01"
+    },
+    {
+      "size": "concert",
+      "brand": "MULLINS",
+      "model": "BARNES AND MULLINS CALTHORPE ELECTRO",
+      "priceRange": "200-500",
+      "url": "http://www.gotaukulele.com/2013/02/barnes-and-mullins-bmuk3ce-calthorpe.html",
+      "rating": 8,
+      "reviewDate": "2013-02-01"
+    },
+    {
+      "size": "concert",
+      "brand": "BIG ISLAND",
+      "model": "TRADITIONAL KOA",
+      "priceRange": "200-500",
+      "url": "http://www.gotaukulele.com/2012/06/big-island-koa-traditional-concert.html",
+      "rating": 9.3,
+      "reviewDate": "2012-06-01"
+    },
+    {
       "size": "tenor",
       "brand": "BONANZA",
       "model": "5 STRING",
@@ -1718,6 +2267,15 @@
       "url": "https://www.gotaukulele.com/2020/05/bonanza-5-string-tenor-ukulele-review.html",
       "rating": 9.3,
       "reviewDate": "2020-05-01"
+    },
+    {
+      "size": "other",
+      "brand": "BONANZA",
+      "model": "BONANZALELE",
+      "priceRange": "200-500",
+      "url": "https://www.gotaukulele.com/2019/06/bonanza-ukuleles-bonanzalele-review.html",
+      "rating": 9.1,
+      "reviewDate": "2019-06-01"
     },
     {
       "size": "concert",
@@ -1756,6 +2314,15 @@
       "reviewDate": "2023-01-01"
     },
     {
+      "size": "tenor",
+      "brand": "BONANZA",
+      "model": "OREO",
+      "priceRange": "200-500",
+      "url": "https://www.gotaukulele.com/2018/09/bonanza-ukuleles-oreo-tenor-review.html",
+      "rating": 9.3,
+      "reviewDate": "2018-01-01"
+    },
+    {
       "size": "concert",
       "brand": "BONANZA",
       "model": "RANCHHAND PERSONAL PLAYER",
@@ -1772,6 +2339,24 @@
       "url": "https://www.gotaukulele.com/2024/08/bonanza-ukuleles-renegade-baritone.html",
       "rating": 9.4,
       "reviewDate": "2024-08-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "BONANZA",
+      "model": "SAGUARO",
+      "priceRange": "200-500",
+      "url": "https://www.gotaukulele.com/2019/10/bonanza-saguaro-tenor-ukulele-review.html",
+      "rating": 9,
+      "reviewDate": "2019-10-01"
+    },
+    {
+      "size": "concert",
+      "brand": "BREEDLOVE",
+      "model": "LU'AU GHOST BURST ELECTRO",
+      "priceRange": "200-500",
+      "url": "https://www.gotaukulele.com/2019/10/breedlove-luau-concert-ukulele-ghost.html",
+      "rating": 8.8,
+      "reviewDate": "2019-10-01"
     },
     {
       "size": "tenor",
@@ -1811,12 +2396,48 @@
     },
     {
       "size": "soprano",
+      "brand": "CARAVELLE",
+      "model": "KITCHEN MONOXYL MEZZO",
+      "priceRange": "200-500",
+      "url": "https://www.gotaukulele.com/2023/12/caravelle-kitchen-monoxyl-mezzo-soprano.html",
+      "rating": 9,
+      "reviewDate": "2023-12-01"
+    },
+    {
+      "size": "soprano",
       "brand": "COCOBOLO",
       "model": "SUPER",
       "priceRange": "200-500",
       "url": "http://www.gotaukulele.com/2016/11/cocobolo-super-soprano-ukulele-review.html",
       "rating": 9,
       "reviewDate": "2016-11-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "COCOBOLO",
+      "model": "TENOR",
+      "priceRange": "200-500",
+      "url": "http://www.gotaukulele.com/2015/12/cocobolo-tenor-ukulele-review.html",
+      "rating": 8.9,
+      "reviewDate": "2015-12-01"
+    },
+    {
+      "size": "concert",
+      "brand": "CORT",
+      "model": "-BWC",
+      "priceRange": "200-500",
+      "url": "http://www.gotaukulele.com/2018/03/cort-uke-bwc-op-blackwood-concert.html",
+      "rating": 9,
+      "reviewDate": "2018-03-01"
+    },
+    {
+      "size": "other",
+      "brand": "DEERING",
+      "model": "GOODTIME BANJO",
+      "priceRange": "200-500",
+      "url": "http://www.gotaukulele.com/2016/01/deering-goodtime-banjo-ukulele-review.html",
+      "rating": 8.9,
+      "reviewDate": "2016-01-01"
     },
     {
       "size": "soprano",
@@ -1938,6 +2559,15 @@
     {
       "size": "tenor",
       "brand": "FLIGHT",
+      "model": "DIANA SOUNDWAVE",
+      "priceRange": "200-500",
+      "url": "https://www.gotaukulele.com/2020/01/flight-diana-soundwave-tenor-ukulele.html",
+      "rating": 9.3,
+      "reviewDate": "2020-01-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "FLIGHT",
       "model": "FIREBALL EQ-A",
       "priceRange": "200-500",
       "url": "https://www.gotaukulele.com/2020/09/flight-fireball-eq-tenor-ukulele-review.html",
@@ -2008,6 +2638,15 @@
       "reviewDate": "2019-06-01"
     },
     {
+      "size": "soprano",
+      "brand": "FLIGHT",
+      "model": "WUS-4",
+      "priceRange": "200-500",
+      "url": "https://www.gotaukulele.com/2020/06/flight-wus-4-soprano-ukulele-review.html",
+      "rating": 9,
+      "reviewDate": "2020-06-01"
+    },
+    {
       "size": "tenor",
       "brand": "FOREST",
       "model": "COCO-S",
@@ -2015,6 +2654,33 @@
       "url": "https://www.gotaukulele.com/2020/12/forest-ukuleles-coco-s-tenor-ukulele.html",
       "rating": 9,
       "reviewDate": "2020-12-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "FOREST",
+      "model": "FUZZ-S",
+      "priceRange": "200-500",
+      "url": "https://www.gotaukulele.com/2020/09/forest-ukuleles-fuzz-s-tenor-ukulele.html",
+      "rating": 9.4,
+      "reviewDate": "2020-09-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "FREEBIRD",
+      "model": "KT1-T",
+      "priceRange": "200-500",
+      "url": "https://www.gotaukulele.com/2020/02/freebird-kt1-t-tenor-ukulele-review.html",
+      "rating": 9,
+      "reviewDate": "2019-02-01"
+    },
+    {
+      "size": "other",
+      "brand": "GRETSCH",
+      "model": "G9112 RESONATOR",
+      "priceRange": "200-500",
+      "url": "https://www.gotaukulele.com/2021/09/gretsch-g9112-resonator-ukulele-review.html",
+      "rating": 8.4,
+      "reviewDate": "2017-07-01"
     },
     {
       "size": "soprano",
@@ -2035,6 +2701,24 @@
       "reviewDate": "2020-01-01"
     },
     {
+      "size": "tenor",
+      "brand": "ISLANDER",
+      "model": "MST-4",
+      "priceRange": "200-500",
+      "url": "http://www.gotaukulele.com/2012/08/islander-mst-4-tenor-ukulele-review.html",
+      "rating": 8.4,
+      "reviewDate": "2012-08-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "ISUZI",
+      "model": "SST-1T",
+      "priceRange": "200-500",
+      "url": "https://www.gotaukulele.com/2020/06/isuzi-sst-1t-tenor-ukulele-review.html",
+      "rating": 9,
+      "reviewDate": "2020-06-01"
+    },
+    {
       "size": "concert",
       "brand": "KAI",
       "model": "KCI-5000",
@@ -2042,6 +2726,15 @@
       "url": "https://www.gotaukulele.com/2021/10/kai-kci-5000-solid-acacia-concert.html",
       "rating": 8.8,
       "reviewDate": "2021-10-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "KALA",
+      "model": "ASAC-TE/C ELECTRO",
+      "priceRange": "200-500",
+      "url": "http://www.gotaukulele.com/2013/01/kala-ka-asac-tec-electro-tenor-ukulele.html",
+      "rating": 8.9,
+      "reviewDate": "2013-01-01"
     },
     {
       "size": "tenor",
@@ -2109,6 +2802,15 @@
     {
       "size": "tenor",
       "brand": "KALA",
+      "model": "KA-SRT-CTG-CE COMFORT EDGE",
+      "priceRange": "200-500",
+      "url": "http://www.gotaukulele.com/2015/10/kala-ka-srt-ctg-ce-comfort-edge-tenor.html",
+      "rating": 9.1,
+      "reviewDate": "2015-10-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "KALA",
       "model": "REVELATOR NIGHT OWL",
       "priceRange": "200-500",
       "url": "https://www.gotaukulele.com/2024/10/kala-revelator-night-owl-tenor-ukulele.html",
@@ -2132,6 +2834,24 @@
       "url": "http://www.gotaukulele.com/2017/11/kamoa-e3-gc-grand-concert-ukulele-review.html",
       "rating": 8.8,
       "reviewDate": "2017-11-01"
+    },
+    {
+      "size": "soprano",
+      "brand": "TIMMS",
+      "model": "KEN TIMMS MAHOGANY",
+      "priceRange": "200-500",
+      "url": "http://www.gotaukulele.com/2017/11/ken-timms-soprano-ukulele-review.html",
+      "rating": 9.6,
+      "reviewDate": "2017-11-01"
+    },
+    {
+      "size": "soprano",
+      "brand": "KIWAYA",
+      "model": "KS5",
+      "priceRange": "200-500",
+      "url": "http://www.gotaukulele.com/2012/12/kiwaya-ks-5-soprano-ukulele-review.html",
+      "rating": 9.1,
+      "reviewDate": "2012-12-01"
     },
     {
       "size": "tenor",
@@ -2168,6 +2888,15 @@
       "url": "https://www.gotaukulele.com/2020/02/km-ukuleles-boatpaddle-soprano-review.html",
       "rating": 9.3,
       "reviewDate": "2020-02-01"
+    },
+    {
+      "size": "soprano",
+      "brand": "KOALOHA",
+      "model": "PIKAKE",
+      "priceRange": "200-500",
+      "url": "http://www.gotaukulele.com/2011/08/koaloha-pikake-soprano-ukulele-review.html",
+      "rating": 9,
+      "reviewDate": "2011-08-01"
     },
     {
       "size": "tenor",
@@ -2222,6 +2951,15 @@
       "url": "https://www.gotaukulele.com/2024/05/magic-fluke-baritone-ukulele-review.html",
       "rating": 9,
       "reviewDate": "2024-05-01"
+    },
+    {
+      "size": "soprano",
+      "brand": "FIREFLY",
+      "model": "MAGIC FLUKE FIREFLY SOPRANO BANJO",
+      "priceRange": "200-500",
+      "url": "http://www.gotaukulele.com/2012/04/magic-fluke-firefly-banjo-ukulele.html",
+      "rating": 8,
+      "reviewDate": "2012-04-01"
     },
     {
       "size": "tenor",
@@ -2316,6 +3054,15 @@
     {
       "size": "tenor",
       "brand": "MARTIN",
+      "model": "T1K",
+      "priceRange": "200-500",
+      "url": "http://www.gotaukulele.com/2012/09/martin-t1k-tenor-ukulele-review.html",
+      "rating": 8.9,
+      "reviewDate": "2012-09-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "MARTIN",
       "model": "T1 STREETMASTER",
       "priceRange": "200-500",
       "url": "https://www.gotaukulele.com/2022/07/martin-t1-streetmaster-tenor-ukulele.html",
@@ -2330,6 +3077,15 @@
       "url": "https://www.gotaukulele.com/2021/05/millar-pd-210mn-phil-doleman-signature.html",
       "rating": 9.3,
       "reviewDate": "2021-05-01"
+    },
+    {
+      "size": "soprano",
+      "brand": "MILLAR",
+      "model": "SP-210LL LONG NECK",
+      "priceRange": "200-500",
+      "url": "https://www.gotaukulele.com/2020/08/millar-sp-210ll-long-neck-soprano.html",
+      "rating": 9.3,
+      "reviewDate": "2020-08-01"
     },
     {
       "size": "tenor",
@@ -2357,6 +3113,15 @@
       "url": "https://www.gotaukulele.com/2023/07/mr-mai-mm-t-tenor-ukulele-review.html",
       "rating": 8.9,
       "reviewDate": "2023-07-01"
+    },
+    {
+      "size": "concert",
+      "brand": "MR MAI",
+      "model": "M-M80 SOLID KOA",
+      "priceRange": "200-500",
+      "url": "https://www.gotaukulele.com/2019/04/mr-mai-m-m80-solid-koa-concert-ukulele.html",
+      "rating": 9.1,
+      "reviewDate": "2019-04-01"
     },
     {
       "size": "concert",
@@ -2442,6 +3207,15 @@
     {
       "size": "tenor",
       "brand": "NOAH",
+      "model": "SUPER",
+      "priceRange": "200-500",
+      "url": "https://www.gotaukulele.com/2021/10/noah-super-tenor-ukulele-review.html",
+      "rating": 9.2,
+      "reviewDate": "2021-10-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "NOAH",
       "model": "TENOR X",
       "priceRange": "200-500",
       "url": "https://www.gotaukulele.com/2023/05/noah-tenor-x-ukulele-review.html",
@@ -2456,6 +3230,15 @@
       "url": "http://www.gotaukulele.com/2017/02/ohana-bk-70-baritone-ukulele-review.html",
       "rating": 7.9,
       "reviewDate": "2017-02-01"
+    },
+    {
+      "size": "concert",
+      "brand": "OHANA",
+      "model": "PKC-50G",
+      "priceRange": "200-500",
+      "url": "http://www.gotaukulele.com/2016/12/ohana-pkc-50g-concert-pineapple-ukulele.html",
+      "rating": 8.5,
+      "reviewDate": "2016-12-01"
     },
     {
       "size": "soprano",
@@ -2474,6 +3257,24 @@
       "url": "http://www.gotaukulele.com/2017/06/ohana-sk-35-soprano-review.html",
       "rating": 8.6,
       "reviewDate": "2017-06-01"
+    },
+    {
+      "size": "soprano",
+      "brand": "OHANA",
+      "model": "SK-39",
+      "priceRange": "200-500",
+      "url": "https://www.gotaukulele.com/2018/04/ohana-sk-39-soprano-review.html",
+      "rating": 8.9,
+      "reviewDate": "2018-04-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "OHANA",
+      "model": "TK-35G-5 5 STRING TENOR&nbsp;",
+      "priceRange": "200-500",
+      "url": "http://www.gotaukulele.com/2013/03/ohana-tk-35g-5-5-string-tenor-ukulele.html",
+      "rating": 8.5,
+      "reviewDate": "2013-03-01"
     },
     {
       "size": "tenor",
@@ -2530,6 +3331,33 @@
       "reviewDate": "2018-10-01"
     },
     {
+      "size": "tenor",
+      "brand": "PONO",
+      "model": "ATDC",
+      "priceRange": "200-500",
+      "url": "http://www.gotaukulele.com/2016/05/pono-atdc-tenor-ukulele-review.html",
+      "rating": 9.3,
+      "reviewDate": "2016-05-01"
+    },
+    {
+      "size": "baritone",
+      "brand": "PONO",
+      "model": "MB-e",
+      "priceRange": "200-500",
+      "url": "http://www.gotaukulele.com/2015/05/pono-mb-e-baritone-ukulele-review.html",
+      "rating": 9,
+      "reviewDate": "2015-05-01"
+    },
+    {
+      "size": "concert",
+      "brand": "PONO",
+      "model": "MHC PRO CLASSIC",
+      "priceRange": "200-500",
+      "url": "http://www.gotaukulele.com/2011/09/pono-mhc-pro-classic-series-concert.html",
+      "rating": 9,
+      "reviewDate": "2011-09-01"
+    },
+    {
       "size": "concert",
       "brand": "PONO",
       "model": "MGC MANGO",
@@ -2537,6 +3365,15 @@
       "url": "https://www.gotaukulele.com/2021/12/pono-mgc-solid-mango-concert-ukulele.html",
       "rating": 8.9,
       "reviewDate": "2021-12-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "PONO",
+      "model": "MTD-E ELECTRO ACOUSTIC",
+      "priceRange": "200-500",
+      "url": "http://www.gotaukulele.com/2013/04/pono-mtd-e-tenor-ukulele-review.html",
+      "rating": 9.1,
+      "reviewDate": "2013-04-01"
     },
     {
       "size": "concert",
@@ -2582,6 +3419,24 @@
       "url": "http://www.gotaukulele.com/2018/02/seagull-uke-steel-sg-burst-eq-electro.html",
       "rating": 8.9,
       "reviewDate": "2018-02-01"
+    },
+    {
+      "size": "soprano",
+      "brand": "SHIMA",
+      "model": "JS WIDE NECK",
+      "priceRange": "200-500",
+      "url": "https://www.gotaukulele.com/2019/01/shima-js-jake-shimabukuro-wideneck.html",
+      "rating": 9,
+      "reviewDate": "2019-01-01"
+    },
+    {
+      "size": "soprano",
+      "brand": "SIGMA",
+      "model": "SUM-2S",
+      "priceRange": "200-500",
+      "url": "http://www.gotaukulele.com/2017/10/sigma-sum-2s-soprano-ukulele-review.html",
+      "rating": 8.9,
+      "reviewDate": "2017-10-01"
     },
     {
       "size": "concert",
@@ -2631,6 +3486,15 @@
     {
       "size": "concert",
       "brand": "SNAIL",
+      "model": "SUC-M3",
+      "priceRange": "200-500",
+      "url": "http://www.gotaukulele.com/2018/01/snail-suc-m3-concert-ukulele-review.html",
+      "rating": 9,
+      "reviewDate": "2018-01-01"
+    },
+    {
+      "size": "concert",
+      "brand": "SNAIL",
       "model": "UKC-380",
       "priceRange": "200-500",
       "url": "https://www.gotaukulele.com/2024/01/snail-ukc-380-concert-ukulele-review.html",
@@ -2645,6 +3509,15 @@
       "url": "https://www.gotaukulele.com/2023/03/sound-smith-ssg-03-guitalele-review.html",
       "rating": 9,
       "reviewDate": "2023-03-01"
+    },
+    {
+      "size": "concert",
+      "brand": "TAKAMINE",
+      "model": "EGU-C1",
+      "priceRange": "200-500",
+      "url": "https://www.gotaukulele.com/2019/08/takamine-egu-c1-electro-concert-ukulele.html",
+      "rating": 8.6,
+      "reviewDate": "2019-08-01"
     },
     {
       "size": "soprano",
@@ -2675,12 +3548,66 @@
     },
     {
       "size": "tenor",
+      "brand": "UMA",
+      "model": "UK-20ST TENOR - 8.9 out of 10",
+      "priceRange": "200-500",
+      "url": "https://www.gotaukulele.com/2023/02/uma-uk-20st-tenor-ukulele.html",
+      "rating": 9,
+      "reviewDate": "2017-03-01"
+    },
+    {
+      "size": "tenor",
       "brand": "WORLD",
       "model": "OFS PIONEER 1T",
       "priceRange": "200-500",
       "url": "http://www.gotaukulele.com/2017/03/world-of-ukes-pioneer-t1-tenor-ukulele.html",
       "rating": 9,
       "reviewDate": "2017-03-01"
+    },
+    {
+      "size": "soprano",
+      "brand": "WUNDERKAMMER",
+      "model": "IKE",
+      "priceRange": "200-500",
+      "url": "http://www.gotaukulele.com/2015/06/wunderkammer-ike-soprano-review.html",
+      "rating": 9,
+      "reviewDate": "2015-06-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "ANTICA",
+      "model": "RIA GALILEO",
+      "priceRange": "500+",
+      "url": "https://www.gotaukulele.com/2023/02/antica-ukuleleria-galileo-tenor-ukulele.html",
+      "rating": 9.5,
+      "reviewDate": "2023-02-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "ANTICA",
+      "model": "RIA MODERNO",
+      "priceRange": "500+",
+      "url": "https://www.gotaukulele.com/2018/07/antica-ukuleleria-moderno-tenor-ukulele.html",
+      "rating": 9.3,
+      "reviewDate": "2018-07-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "ANUENUE",
+      "model": "ANN-UT5K KOA MOON BIRD",
+      "priceRange": "500+",
+      "url": "https://www.gotaukulele.com/2019/07/anuenue-ann-u5k-koa-moon-bird-tenor.html",
+      "rating": 9.4,
+      "reviewDate": "2019-07-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "ANUENUE",
+      "model": "LION ORANGE UT",
+      "priceRange": "500+",
+      "url": "https://www.gotaukulele.com/2020/10/anuenue-lion-orange-ut-tenor-ukulele.html",
+      "rating": 9.3,
+      "reviewDate": "2020-10-01"
     },
     {
       "size": "concert",
@@ -2701,6 +3628,24 @@
       "reviewDate": "2023-09-01"
     },
     {
+      "size": "tenor",
+      "brand": "ANUENUE",
+      "model": "UT140 LIGHT BIRD",
+      "priceRange": "500+",
+      "url": "https://www.gotaukulele.com/2018/10/anuenue-ut140-light-bird-tenor-ukulele.html",
+      "rating": 9.3,
+      "reviewDate": "2018-10-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "ANUENUE",
+      "model": "UT200 MOON BIRD",
+      "priceRange": "500+",
+      "url": "http://www.gotaukulele.com/2016/11/anuenue-ut200-mood-bird-tenor-ukulele.html",
+      "rating": 9.5,
+      "reviewDate": "2016-11-01"
+    },
+    {
       "size": "sopranino",
       "brand": "BAGARMOSSENS",
       "model": "MANUFAKTUR",
@@ -2710,6 +3655,15 @@
       "reviewDate": "2025-05-01"
     },
     {
+      "size": "baritone",
+      "brand": "PAUL",
+      "model": "BARNARD WILDCAT",
+      "priceRange": "500+",
+      "url": "https://www.gotaukulele.com/2018/06/paul-barnard-wildcat-baritone-ukulele.html",
+      "rating": 9.5,
+      "reviewDate": "2018-06-01"
+    },
+    {
       "size": "tenor",
       "brand": "MARTIN",
       "model": "BECK HANDMADE",
@@ -2717,6 +3671,15 @@
       "url": "https://www.gotaukulele.com/2021/11/martin-beck-handmade-tenor-ukulele.html",
       "rating": 9.6,
       "reviewDate": "2021-11-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "MARTIN",
+      "model": "BECK SOLID CEDAR AND ROSEWOOD",
+      "priceRange": "500+",
+      "url": "https://www.gotaukulele.com/2022/07/martin-beck-solid-cedar-and-rosewood.html",
+      "rating": 9.6,
+      "reviewDate": "2022-07-01"
     },
     {
       "size": "concert",
@@ -2774,6 +3737,15 @@
     },
     {
       "size": "tenor",
+      "brand": "BELTONA",
+      "model": "TENOR RESONATOR",
+      "priceRange": "500+",
+      "url": "http://www.gotaukulele.com/2015/11/beltona-style-2-tenor-resonator-ukulele.html",
+      "rating": 9.3,
+      "reviewDate": "2015-11-01"
+    },
+    {
+      "size": "tenor",
       "brand": "BIG ISLAND",
       "model": "HONU KT-TR",
       "priceRange": "500+",
@@ -2798,6 +3770,15 @@
       "url": "http://www.gotaukulele.com/2016/10/blackbird-clara-concert-ukulele-review.html",
       "rating": 9.3,
       "reviewDate": "2016-01-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "BLACKBIRD",
+      "model": "FARRALON",
+      "priceRange": "500+",
+      "url": "https://www.gotaukulele.com/2018/06/blackbird-farallon-ekoa-tenor-ukulele.html",
+      "rating": 9.4,
+      "reviewDate": "2018-01-01"
     },
     {
       "size": "tenor",
@@ -2892,6 +3873,15 @@
     {
       "size": "tenor",
       "brand": "KALA",
+      "model": "3KOA-TG ELITE",
+      "priceRange": "500+",
+      "url": "http://www.gotaukulele.com/2017/10/kala-elite-3koa-tg-tenor-ukulele-review.html",
+      "rating": 9.1,
+      "reviewDate": "2017-10-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "KALA",
       "model": "NSL-KOA-T KOA REVELATOR",
       "priceRange": "500+",
       "url": "https://www.gotaukulele.com/2023/12/kala-nsl-koa-t-revelator-tenor.html",
@@ -2933,6 +3923,15 @@
       "url": "https://www.gotaukulele.com/2023/07/kanilea-k-1-b-baritone-deluxe-ukulele.html",
       "rating": 9.5,
       "reviewDate": "2023-07-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "KANILE'A",
+      "model": "K-1",
+      "priceRange": "500+",
+      "url": "http://www.gotaukulele.com/2011/08/kanilea-k-1-tenor-ukulele-review.html",
+      "rating": 9.3,
+      "reviewDate": "2011-08-01"
     },
     {
       "size": "tenor",
@@ -2980,6 +3979,15 @@
       "reviewDate": "2017-05-01"
     },
     {
+      "size": "soprano",
+      "brand": "KIWAYA",
+      "model": "KTS-7",
+      "priceRange": "500+",
+      "url": "https://www.gotaukulele.com/2019/05/kiwaya-kts-7-soprano-review.html",
+      "rating": 9.5,
+      "reviewDate": "2019-05-01"
+    },
+    {
       "size": "baritone",
       "brand": "KLŌS",
       "model": "FULL CARBON",
@@ -3005,6 +4013,15 @@
       "url": "https://www.gotaukulele.com/2018/09/koaloha-ktm-00-tenor-ukulele-review.html",
       "rating": 9.5,
       "reviewDate": "2018-01-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "KOALOHA",
+      "model": "OPIO SPRUCE TOP",
+      "priceRange": "500+",
+      "url": "http://www.gotaukulele.com/2017/03/koaloha-opio-spruce-top-tenor-review.html",
+      "rating": 9,
+      "reviewDate": "2017-03-01"
     },
     {
       "size": "soprano",
@@ -3061,6 +4078,15 @@
       "reviewDate": "2025-08-01"
     },
     {
+      "size": "concert",
+      "brand": "MR MAI",
+      "model": "LE PETIT PRINCE",
+      "priceRange": "500+",
+      "url": "https://www.gotaukulele.com/2022/05/mr-mai-le-petit-prince-concert-ukulele.html",
+      "rating": 9,
+      "reviewDate": "2022-05-01"
+    },
+    {
       "size": "baritone",
       "brand": "NFC",
       "model": "BARITONE",
@@ -3068,6 +4094,15 @@
       "url": "https://www.gotaukulele.com/2020/02/nfc-ukuleles-baritone-review.html",
       "rating": 8.5,
       "reviewDate": "2020-02-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "NFC",
+      "model": "CEDAR",
+      "priceRange": "500+",
+      "url": "https://www.gotaukulele.com/2020/08/nfc-ukuleles-cedar-tenor-ukulele-review.html",
+      "rating": 9.1,
+      "reviewDate": "2020-08-01"
     },
     {
       "size": "concert",
@@ -3160,6 +4195,24 @@
       "reviewDate": "2024-10-01"
     },
     {
+      "size": "tenor",
+      "brand": "REBEL",
+      "model": "THE REBEL QUARK",
+      "priceRange": "500+",
+      "url": "https://www.gotaukulele.com/2019/12/the-rebel-quark-tenor-ukulele-review.html",
+      "rating": 9.1,
+      "reviewDate": "2019-12-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "RISA",
+      "model": "LP",
+      "priceRange": "500+",
+      "url": "https://www.gotaukulele.com/2019/03/risa-lp-tenor-electric-ukulele-review.html",
+      "rating": 9.1,
+      "reviewDate": "2019-03-01"
+    },
+    {
       "size": "soprano",
       "brand": "ROMERO",
       "model": "CREATIONS S-M SIGNATURE",
@@ -3187,6 +4240,24 @@
       "reviewDate": "2021-04-01"
     },
     {
+      "size": "baritone",
+      "brand": "ZT",
+      "model": "BARITONE",
+      "priceRange": "500+",
+      "url": "https://www.gotaukulele.com/2019/06/zt-baritone-ukulele-review.html",
+      "rating": 9.4,
+      "reviewDate": "2019-01-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "ZT",
+      "model": "TENOR",
+      "priceRange": "500+",
+      "url": "https://www.gotaukulele.com/2019/05/zt-tenor-ukulele-review.html",
+      "rating": 9.4,
+      "reviewDate": "2019-05-01"
+    },
+    {
       "size": "tenor",
       "brand": "ULURU",
       "model": "LEHUA IIICX",
@@ -3194,6 +4265,15 @@
       "url": "https://www.gotaukulele.com/2020/04/uluru-lehua-iiicx-tenor-ukulele-review.html?fbclid=IwAR2FIGF9Bnfqnu8XLcukjsnfuC-1FhwWbxV_sTfqUwo6jlyjd-P6RRjowPE",
       "rating": 9.4,
       "reviewDate": "2020-04-01"
+    },
+    {
+      "size": "tenor",
+      "brand": "ULURU",
+      "model": "SEDERA III",
+      "priceRange": "500+",
+      "url": "https://www.gotaukulele.com/2020/09/uluru-sedera-iii-world-of-ukes-tenor.html",
+      "rating": 9.3,
+      "reviewDate": "2020-09-01"
     },
     {
       "size": "soprano",
@@ -3207,18 +4287,18 @@
   ],
   "metadata": {
     "sourceUrl": "https://www.gotaukulele.com/p/ukulele-reviews.html",
-    "scrapedAt": 1759674285035,
-    "total": 356,
+    "scrapedAt": 1759678705229,
+    "total": 476,
     "diffReport": {
-      "timestamp": "2025-10-05T14:24:45.035Z",
+      "timestamp": "2025-10-05T15:38:25.229Z",
       "changes": {
         "new": [],
         "updated": [],
         "removed": []
       },
       "summary": {
-        "totalPrevious": 356,
-        "totalCurrent": 356,
+        "totalPrevious": 476,
+        "totalCurrent": 476,
         "netChange": 0
       }
     }

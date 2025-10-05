@@ -327,6 +327,12 @@ class UkuleleReviewsScraper {
 	async extractAllReviews() {
 		this.logger.info('Fetching main reviews page...')
 		const html = await this.makeRequest(this.sourceUrl)
+
+		// Fetch the page from local cache for development
+		// const html = await fs.readFile(path.join(this.outputDir, 'debug-page.html'), 'utf8')
+		// Save the html for debugging
+		// await fs.writeFile(path.join(this.outputDir, 'debug-page.html'), html)
+
 		const $ = cheerio.load(html, {
 			xml: {
 				withStartIndices: true,
@@ -376,17 +382,32 @@ class UkuleleReviewsScraper {
 
 			// Collect text nodes that follow the link
 			while (nextNode && followingText.length < 100) {
-				if (nextNode.type === 'text') {
+				if (nextNode.type === 'text' && nextNode.data.includes('out')) {
 					followingText += nextNode.data
-				} else if (nextNode.type === 'tag' && nextNode.name === 'br') {
+				} else if (nextNode.type === 'tag' && nextNode.name === 'br' && nextNode.name === 'div') {
 					break // Stop at line break
 				}
 				nextNode = nextNode.next
 			}
 
+			// If nothing collected, check if the link is inside <b> and try to get the next sibling of <b>
+			if (!followingText && $link.parent() && $link.parent()[0].name === 'b') {
+				let bSibling = $link.parent()[0].next
+				while (bSibling && followingText.length < 100) {
+					if (bSibling.type === 'text') {
+						followingText += bSibling.data
+						break
+					} else if (bSibling.type === 'tag' && bSibling.name === 'br' && bSibling.name === 'div') {
+						break
+					}
+					bSibling = bSibling.next
+				}
+			}
+
 			// Look for the pattern: " - X out of 10 (Date)" or " - X/10"
-			const ratingPattern = /\s*-\s*(\d+(?:\.\d+)?)\s*(?:out\s*of\s*10|\/10)\s*\(([^)]+)\)/i
-			const match = followingText.match(ratingPattern)
+			const ratingPattern = /([\d.]+)\s*(?:out\s*of\s*10|\/10)\s*\(([^)]+)\)\s*(?:null)?/i
+			const ratingPattern2 = /([\d.]+)\s*(?:out\s*10|\/10)\s*\(([^)]+)\)\s*(?:null)?/i
+			const match = followingText.trim().match(ratingPattern) || followingText.trim().match(ratingPattern2)
 
 			if (match) {
 				const rating = parseFloat(match[1])
